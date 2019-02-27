@@ -162,7 +162,7 @@ public class mapa extends AppCompatActivity implements OnMapReadyCallback {
             }
         });
 
-       btn.setOnClickListener(new View.OnClickListener() {
+       /*btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
                 buttonParse.clearAnimation();
@@ -172,7 +172,7 @@ public class mapa extends AppCompatActivity implements OnMapReadyCallback {
                 startActivity(it);
             }
         });
-
+        */
 
         getLocationPermission();
     }
