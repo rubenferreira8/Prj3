@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Viana + Acessível</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="subtitulo1">Pessoa em cadeira de rodas:</string>
+    <string name="subtitulo2">Pessoa com dificuldades sensoriais:</string>
+    <string name="subtitulo3">Pessoa temporáriamente condicionada:</string>
+    <string name="title_activity_segunda_atividade">SegundaAtividade</string>
+    <string name="escolha_o_seu_destino">Escolha o seu destino</string>
+    <string name="NomeApp1">PRJ3</string>
+    <string name="NomeApp2">-EI</string>
+    <string name="Subtitulo1">Percursos acessíveis</string>
+    <string name="Subtitulo2">Viana do Castelo</string>
+    <string name="PerguntaCondição">Indique a sua condição:</string>
+    <string name="vermapa">Ver no Mapa</string>
+    <string name="textlocais">Destinos</string>
+    <string name="texttaxis">Ponto de Taxi</string>
+    <string name="texttrajetos">Trajetos</string>
+    <string name="nomedestino">Nome do destino</string>
+    <string name="lugares">Ponto de Estaciona-mento</string>
+    <string name="action_refresh">Refresh</string>
+
+</resources>

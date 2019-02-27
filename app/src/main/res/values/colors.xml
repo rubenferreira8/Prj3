@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="ipvc">#FFBF00</color>
+    <color name="preto">#000000</color>
+    <color name="preto1">#CC000000</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="branco">#FFFFFF</color>
+
+
+
+    <color name="fundo">#F6F6F6</color>
+    <color name="preto2">#312A24</color>
+    <color name="laranja">#FF9933</color>
+    <color name="verde">#66CC33</color>
+    <color name="roxo">#CC33CC</color>
+    <color name="rosa">#FF3366</color>
+    <color name="azul">#3399CC</color>
+    <color name="vermelho">#DB4437</color>
+    <color name="amarelo">#FFF72A</color>
+
+
+
+</resources>

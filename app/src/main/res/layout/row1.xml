@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:id="@+id/principal2"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+
+        <TextView
+            android:padding="9dp"
+            android:id="@+id/btnn"
+            android:textColor="@color/branco"
+            android:text="aaaa"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/blackbuttonshape"
+            android:textSize="20dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:text="..................................................."
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/btnn"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/branco"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

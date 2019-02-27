@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mapa"
+    android:orientation="vertical">
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mapa"
+    />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@color/verde"
+        android:id="@+id/perguntadestino">
+
+        <TextView
+            android:id="@+id/taxis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+
+
+        <Button
+            android:id="@+id/destino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/verde"
+            android:fontFamily="@font/bree_serif"
+            android:text="@string/escolha_o_seu_destino"
+            android:textColor="@color/branco"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/destino"
+            android:layout_centerVertical="true"
+            android:src="@drawable/voltar"
+            android:onClick="onClick"
+            android:layout_marginLeft="120dp"
+            android:background="@color/verde"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/barralateral"
+        android:layout_width="65sp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="right"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape1"
+            />
+
+        <TextView
+            android:id="@+id/textolateral1"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="@string/vermapa"
+            android:textColor="@color/branco"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/imglocais"
+            android:layout_below="@+id/textolateral1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/destino"
+            android:background="@color/preto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8sp"
+            android:contentDescription="Destinos"
+            />
+
+        <TextView
+            android:id="@+id/textolocais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="@string/textlocais"
+            android:textColor="@color/branco"
+            android:textSize="11sp"
+            android:layout_below="@+id/imglocais"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imgtaxis"
+            android:layout_below="@+id/textotrajetos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/taxis"
+            android:background="@color/preto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8sp"
+            android:contentDescription="Ponto de Taxi"
+            />
+
+        <TextView
+            android:id="@+id/textotaxis"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="@string/texttaxis"
+            android:textColor="@color/branco"
+            android:textSize="11sp"
+            android:layout_below="@+id/imgtaxis"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageButton
+            android:id="@+id/imgtrajetos"
+            android:layout_below="@+id/textolocais"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/trajetos"
+            android:background="@color/preto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8sp"
+            android:contentDescription="Trajetos butão ainda não desenvolvido"
+            />
+
+        <TextView
+            android:id="@+id/textotrajetos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="@string/texttrajetos"
+            android:textColor="@color/branco"
+            android:textSize="11sp"
+            android:layout_below="@+id/imgtrajetos"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageButton
+            android:id="@+id/estacionamento"
+            android:layout_below="@+id/textotaxis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/estacionamento"
+            android:background="@color/preto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8sp"
+            android:contentDescription="Ponto de Estacionamento Mobilidade Reduzida"
+            />
+
+        <TextView
+            android:id="@+id/txtestacionamento"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="@string/lugares"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/branco"
+            android:textSize="11sp"
+            android:layout_below="@+id/estacionamento"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </RelativeLayout>
+</FrameLayout>

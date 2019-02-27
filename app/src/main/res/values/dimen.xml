@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16sp</dimen>
+    <dimen name="subtitulos">18sp</dimen>
+    <dimen name="titulo">25sp</dimen>
+</resources>
